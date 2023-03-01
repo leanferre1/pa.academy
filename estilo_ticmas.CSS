@@ -1,0 +1,86 @@
+body{
+    width: max-content;
+    background-color: coral;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    right: 0;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+
+}
+#inicio{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+
+
+}
+#barradebotones{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    border-style: solid;
+    padding-left: 0px;
+
+}
+
+.botonesheder{
+    margin: 10px;
+    list-style-type: none;
+    background-color: bisque;
+    text-decoration: none;
+    font-family:'Amiko', sans-serif;color: black;
+    border-radius: 30px;
+    padding: 5px;
+    border-style: solid; color: black;
+    color: black;
+    align-items: center;
+}
+
+
+.primerparrafo{
+    font-family: 'Amiko', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.segundoparrafo {
+    font-family: 'Amiko', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px
+    
+}
